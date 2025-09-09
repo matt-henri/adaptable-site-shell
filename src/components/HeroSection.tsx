@@ -4,7 +4,7 @@ const HeroSection = () => {
       {/* Background image */}
       <div className="absolute inset-0">
         <img 
-          src="" 
+          src="https://images.unsplash.com/photo-1620856902651-ce18d6d31d42?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
           alt="Inclusão Digital Background" 
           className="w-full h-full object-cover"
           onError={(e) => {
@@ -31,7 +31,7 @@ const HeroSection = () => {
           <div className="flex justify-center lg:justify-end">
             <div className="w-80 h-80 lg:w-96 lg:h-96 bg-white/10 rounded-2xl border border-white/20 flex items-center justify-center backdrop-blur-sm">
               <img 
-                src="" 
+                src="https://images.unsplash.com/photo-1620856902651-ce18d6d31d42?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
                 alt="VR Headset Technology" 
                 className="w-full h-full object-cover rounded-2xl"
                 onError={(e) => {
