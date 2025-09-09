@@ -1,20 +1,20 @@
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-primary to-accent overflow-hidden">
-      {/* Background overlay */}
-      <div className="absolute inset-0 bg-hero-overlay"></div>
-      
-      {/* Background image placeholder */}
+    <section className="relative min-h-screen overflow-hidden">
+      {/* Background image */}
       <div className="absolute inset-0">
         <img 
           src="" 
-          alt="Background VR Technology" 
-          className="w-full h-full object-cover opacity-30"
+          alt="Inclusão Digital Background" 
+          className="w-full h-full object-cover"
           onError={(e) => {
-            e.currentTarget.style.display = 'none';
+            e.currentTarget.outerHTML = '<div class="w-full h-full bg-gradient-to-br from-primary to-accent"></div>';
           }}
         />
       </div>
+      
+      {/* Background overlay */}
+      <div className="absolute inset-0 bg-hero-overlay"></div>
       
       <div className="relative z-10 container mx-auto px-4 py-32 lg:py-48">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
