@@ -47,6 +47,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        "hero-overlay": "hsl(var(--hero-overlay))",
+        "section-dark": "hsl(var(--section-dark))",
+        "tech-card": "hsl(var(--tech-card))",
+        "tech-card-hover": "hsl(var(--tech-card-hover))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
